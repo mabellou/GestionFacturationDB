@@ -1301,25 +1301,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Souad\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Souad\\Downloads\\GestionFacturation.Api\\GestionFacturation.Api.csproj",
+      "projectUniqueName": "D:\\PfeProject\\api\\GestionFacturation.Api\\GestionFacturation.Api.csproj",
       "projectName": "GestionFacturation.Api",
-      "projectPath": "C:\\Users\\Souad\\Downloads\\GestionFacturation.Api\\GestionFacturation.Api.csproj",
-      "packagesPath": "C:\\Users\\Souad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Souad\\Downloads\\GestionFacturation.Api\\obj\\",
+      "projectPath": "D:\\PfeProject\\api\\GestionFacturation.Api\\GestionFacturation.Api.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "D:\\PfeProject\\api\\GestionFacturation.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Souad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
