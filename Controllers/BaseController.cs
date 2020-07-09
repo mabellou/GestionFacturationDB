@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging;
 namespace GestionFacturation.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [Authorize(Roles = Roles.Admin)]
     public class BaseController<T> : Controller where T : class
     {

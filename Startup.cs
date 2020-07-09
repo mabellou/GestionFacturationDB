@@ -29,6 +29,13 @@ namespace GestionFacturation.Api
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+                }));
+
             services.AddControllers();
         
             services.AddDbContext<ApplicationDbContext>();
@@ -52,6 +59,8 @@ namespace GestionFacturation.Api
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
 
+            app.UseCors("MyPolicy");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -70,7 +79,6 @@ namespace GestionFacturation.Api
             app.UseAuthentication();
 
             app.UseAuthorization();
-
 
             app.UseEndpoints(endpoints =>
             {
